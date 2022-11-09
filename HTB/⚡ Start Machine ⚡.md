@@ -31,14 +31,14 @@ color blue
 ---------------------
 
 ## Script Workflow  for  - Update Machine info
-*As you can see in the diagram below, you can update the  machine info of all the machines that has its folder name under /Machines folder*
+*As you can see in the diagram below, you can update the machine info of all the machines that has its folder name under /Machines folder*
 
 ```mermaid
 flowchart TB
         A["Button Action"] --> B["Search Markdown fileClass Machine"]
         B --> C["HTB API conn with file name as param"]
         C --> D["Create new file with updated params"]
-
+		D --> C
         
 	
 ```
