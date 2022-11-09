@@ -1,0 +1,84 @@
+:root {
+  --red: #b00;
+  --blue: #00b;
+  --navy: #0a192f;
+  --light-navy: #112240;
+  --lightest-navy: #233554;
+  --slate: #8892b0;
+  --light-slate: #a8b2d1;
+  --lightest-slate: #ccd6f6;
+  --white: #e6f1ff;
+  --green: #64ffda;
+}
+
+:root
+{
+    --font-size-normal:              18px;
+    --font-size-code:                13.5px;
+    --font-size-side-dock:           13.5px;
+    --font-size-side-dock-title:     15px;
+    --font-size-status-bar:          12px;
+    --font-size-h1:                  23px;
+    --font-size-h2:                  22px;
+    --font-size-h3:                  21px;
+    --font-size-h4:                  20px;
+    --font-size-h5:                  19px;
+    --font-size-h6:                  18px;
+    --font-family-editor:            Open Sans, Avenir Next, sans-serif;
+    --font-family-preview:           Gerogia, Avenir Next, sans-serif;
+    --dark0:                         
+} 
+
+.theme-light,
+.theme-dark {
+  --navy-shadow:  rgba(2,12,27,0.7);
+  --navy-shadow1:  var(--green);
+  --back-shadow: 0 5px 30px 10px var(--navy-shadow);;
+  --background-primary: var(--navy);
+  --background-primary-alt: #1d2021;
+  --background-secondary: var(--light-navy);
+  --background-secondary-alt: var(--lightest-navy);
+  --background-accent: #fff;
+  --background-modifier-border: hsla(0,0%,100%,.16);
+  --background-modifier-form-field: rgba(0, 0, 0, 0.2);
+  --background-modifier-form-field-highlighted: rgba(0, 0, 0, 0.5);
+  --background-modifier-box-shadow: rgba(0, 0, 0, 0.3);
+  --background-modifier-success: #197300; /*no sure*/
+  --background-modifier-error: #3d0000; /*no sure*/
+  --background-modifier-error-rgb: 61, 0, 0;
+  --background-modifier-error-hover: #470000;
+  --background-modifier-cover: rgba(0, 0, 0, 0.6);
+  --text-accent: #fe8019;
+  --text-accent-hover: #83a598;
+  --text-normal: #fbf1c7;
+  --text-muted: #d5c4a1;
+  --text-faint: #bdae93;
+  --text-highlight-bg: #b57614;
+  --text-error: var(--light-slate);
+  --text-error-hover: #990000;
+  --text-selection: rgba(65, 83, 88, 0.99);
+  --text-on-accent: #fbf1c7;
+  --interactive-normal: #b57614;
+  --interactive-hover: #fe8019;
+  --interactive-accent: var(--lightest-navy);
+  --interactive-accent-rgb: 123, 108, 217;
+  --interactive-accent-hover: #fe8019;
+  --scrollbar-active-thumb-bg: rgba(0, 0, 0, 0.5);
+  --scrollbar-bg: rgba(0, 0, 0, 0.05);
+  --scrollbar-thumb-bg: rgba(0, 0, 0, 0.3);
+  --text-title-h1:              var(--lightest-slate);
+  --text-title-h2:              var(--light-slate);
+  --text-title-h3:              var(--slate);
+  --text-title-h4:              var(--slate);
+  --text-title-h5:              #458588;
+  --text-title-h6:              #b16286;
+  --inline-code:                #83a598;
+  --code-block:                 #83a598;
+  --pre-code:                   #3c3836;
+  --blockquote-border:          #b57614;
+  --vim-cursor:                 #d65d0e;
+  --border-color:               #504945;
+}
+input[type='range']::-webkit-slider-thumb {
+      background: var(--green);  
+    }

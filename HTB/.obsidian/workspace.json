@@ -1,0 +1,184 @@
+{
+  "main": {
+    "id": "419b4bd71814993a",
+    "type": "split",
+    "children": [
+      {
+        "id": "fc32798b129a248d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "58b14016d8cd8da5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "⚡ Start Machine ⚡.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "b87917073de51c47",
+    "type": "split",
+    "children": [
+      {
+        "id": "c6eb17fe4107d284",
+        "type": "tabs",
+        "dimension": 41.53846153846154,
+        "children": [
+          {
+            "id": "e08dbcc4709688c0",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": true,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "d0290278b4441eac",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          },
+          {
+            "id": "1be54c2ba4f7f2d0",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
+            }
+          },
+          {
+            "id": "4db53388bd5bc1ad",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 2
+      },
+      {
+        "id": "84608c2c80821b30",
+        "type": "tabs",
+        "dimension": 58.46153846153847,
+        "children": [
+          {
+            "id": "f9c3d4ffcaa05297",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 346.5
+  },
+  "right": {
+    "id": "897b955182786bfe",
+    "type": "split",
+    "children": [
+      {
+        "id": "481bba2bbea7c737",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3dea914a33867574",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "⚡ Start Machine ⚡.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "708b4fd86a6d3873",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "⚡ Start Machine ⚡.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "dbb5525e5989ec3e",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "4c5730635b959d8b",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "⚡ Start Machine ⚡.md"
+              }
+            }
+          },
+          {
+            "id": "131801ce77a1335c",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "active": "58b14016d8cd8da5",
+  "lastOpenFiles": [
+    "Index.md",
+    "⚡ Start Machine ⚡.md",
+    "Machines/Lame/Lame.md",
+    "TODO.md",
+    "fileClass/Machine.md",
+    "Machines/Lame/00-index.md",
+    "Machines/Lame/03-post-exploitation.md",
+    "Machines/Trick/Trick.md",
+    "Machines/Trick/01-recon.md",
+    "Machines/Trick/00-index.md"
+  ]
+}

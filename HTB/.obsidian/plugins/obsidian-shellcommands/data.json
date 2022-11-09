@@ -1,0 +1,145 @@
+{
+  "settings_version": "0.16.0",
+  "debug": false,
+  "obsidian_command_palette_prefix": "Execute: ",
+  "preview_variables_in_command_palette": true,
+  "show_autocomplete_menu": true,
+  "working_directory": "",
+  "default_shells": {},
+  "environment_variable_path_augmentations": {},
+  "error_message_duration": 20,
+  "notification_message_duration": 10,
+  "execution_notification_mode": "disabled",
+  "output_channel_clipboard_also_outputs_to_notification": true,
+  "enable_events": true,
+  "approve_modals_by_pressing_enter_key": true,
+  "max_visible_lines_in_shell_command_fields": false,
+  "shell_commands": [
+    {
+      "id": "m6e17y5rts",
+      "platform_specific_commands": {
+        "default": "python3 {{folder_path:absolute}}/../htb_api.py -m {{_machine_name}} -v {{folder_path:absolute}}/"
+      },
+      "shells": {},
+      "alias": "New Machine Note",
+      "icon": "activity",
+      "confirm_execution": true,
+      "ignore_error_codes": [],
+      "output_channels": {
+        "stdout": "modal",
+        "stderr": "notification"
+      },
+      "output_wrappers": {
+        "stdout": null,
+        "stderr": null
+      },
+      "output_channel_order": "stdout-first",
+      "events": {},
+      "command_palette_availability": "enabled",
+      "preactions": [
+        {
+          "type": "prompt",
+          "enabled": true,
+          "prompt_id": "j2fcw45kfm"
+        }
+      ],
+      "variable_default_values": {
+        "5a0vmo68z6": {
+          "type": "show-errors",
+          "value": "this.app.vault.adapter.basePath"
+        }
+      }
+    },
+    {
+      "id": "usnoddh2no",
+      "platform_specific_commands": {
+        "default": "python3 {{folder_path:absolute}}/../htb_api.py  -m \"\" -v {{folder_path:absolute}}/"
+      },
+      "shells": {},
+      "alias": "Update Machine",
+      "icon": null,
+      "confirm_execution": true,
+      "ignore_error_codes": [],
+      "output_channels": {
+        "stdout": "modal",
+        "stderr": "notification"
+      },
+      "output_wrappers": {
+        "stdout": null,
+        "stderr": null
+      },
+      "output_channel_order": "stdout-first",
+      "events": {},
+      "command_palette_availability": "enabled",
+      "preactions": [
+        {
+          "type": "prompt",
+          "enabled": false,
+          "prompt_id": ""
+        }
+      ],
+      "variable_default_values": {}
+    },
+    {
+      "id": "g7sm2q030y",
+      "platform_specific_commands": {
+        "default": "python3 {{folder_path:absolute}}/../../../htb_api.py  -m {{folder_name}} -v {{folder_path:absolute}}/../../"
+      },
+      "shells": {},
+      "alias": "Update this Machine",
+      "icon": null,
+      "confirm_execution": true,
+      "ignore_error_codes": [],
+      "output_channels": {
+        "stdout": "notification",
+        "stderr": "notification"
+      },
+      "output_wrappers": {
+        "stdout": null,
+        "stderr": null
+      },
+      "output_channel_order": "stdout-first",
+      "events": {},
+      "command_palette_availability": "enabled",
+      "preactions": [
+        {
+          "type": "prompt",
+          "enabled": false,
+          "prompt_id": "j2fcw45kfm"
+        }
+      ],
+      "variable_default_values": {}
+    }
+  ],
+  "prompts": [
+    {
+      "id": "j2fcw45kfm",
+      "title": "New Machine",
+      "description": "Input text will search the name of the machine in the HTB API and return data. ",
+      "preview_shell_command": true,
+      "fields": [
+        {
+          "label": "Select Machine",
+          "description": "Select a machine name",
+          "default_value": "Lame",
+          "target_variable_id": "qjtovztiv3",
+          "required": true
+        }
+      ],
+      "execute_button_text": "Find"
+    }
+  ],
+  "custom_variables": [
+    {
+      "id": "qjtovztiv3",
+      "name": "machine_name",
+      "description": ""
+    },
+    {
+      "id": "5a0vmo68z6",
+      "name": "vault_folder",
+      "description": "Default folder"
+    }
+  ],
+  "output_wrappers": []
+}
