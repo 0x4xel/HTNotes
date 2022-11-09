@@ -15,7 +15,10 @@ This can be performed with just a click on obsidian button.
 
 Nothing except your eyes could 
 
-https://user-images.githubusercontent.com/48086822/200938482-8ad7a8b5-0f50-4c44-ae00-4e61ecfc99ca.mp4
+
+https://user-images.githubusercontent.com/48086822/200939575-04219c6f-0686-43a7-985f-18e30c4b2756.mp4
+
+
 
 ## Setup
 
