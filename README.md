@@ -57,7 +57,7 @@ Put you API key in Constants.py file and save.
 2. Select the folder HTB under HTNotes
 3. IMPORTANT: When prompt open asking for permisions, press enable. This vault has preconfigured plugins that is needed to work properly
 
-Note: Consider that HTB folder will be the main vault folder, so scripts must be under HTNotes and with execute privileges with current user to keep working.
+Note: Consider that HTB folder will be the main vault folder, so scripts must be under HTNotes and will need `execute privileges` with current user to keep working.
 
 
 ## Usage
