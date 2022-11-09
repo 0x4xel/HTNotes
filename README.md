@@ -19,7 +19,7 @@ Nothing except your eyes could
 https://user-images.githubusercontent.com/48086822/200939575-04219c6f-0686-43a7-985f-18e30c4b2756.mp4
 
 
-
+https://youtu.be/loKeAcpBSR8
 ## Setup
 
 ### Install obsidian
