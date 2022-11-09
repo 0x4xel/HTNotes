@@ -1,13 +1,14 @@
 
 ## Script Workflow  for  - Create Machine Note
 
-*This is simple button that will automate the creation of starting notes that will improve your quality of pwn. Just click on it and select the name of the machine you would like to be compromised. 
+*This is simple button that will automate the creation of starting notes that will improve your quality of pwn. Just click on it and select the name of the machine you would like to compromise. 
 
 
 ```mermaid
 flowchart TB
-        A["Button Action"] --> B["Search folder name"]
-       
+        A["Button Action"] -- machine_name --> J["API Request"]
+        J -- Not found --> N["Exit"]
+	    J -- Found Machine --> B["Search folder name"]
         B -- Found --> E["Just update the machine info"]
         B -- Not Found --> C["Create folder structure"]
         C --> F["00-index"]
@@ -30,7 +31,7 @@ color blue
 
 ---------------------
 
-## Script Workflow  for  - Update Machine info
+## Script Workflow  for  - Update Machines info
 *As you can see in the diagram below, you can update the machine info of all the machines that has its folder name under /Machines folder*
 
 ```mermaid
@@ -52,8 +53,6 @@ templater true
 color blue
 Custom Class custom-buttom
 ```
-
-
 
 
 
