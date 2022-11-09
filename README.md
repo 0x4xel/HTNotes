@@ -13,13 +13,12 @@ This can be performed with just a click on obsidian button.
 - [References](#References)
 ## Content
 
-Nothing except your eyes could 
-
+Nothing except your eyes could verify if this tool will help you in the future
 
 https://user-images.githubusercontent.com/48086822/200939575-04219c6f-0686-43a7-985f-18e30c4b2756.mp4
-[![Video demo](https://img.youtube.com/vi/loKeAcpBSR8/0.jpg)](https://youtu.be/loKeAcpBSR8)
 
 
+If video is not displayed, you can also click on this link:
 https://youtu.be/loKeAcpBSR8
 ## Setup
 
