@@ -15,7 +15,7 @@ This can be performed with just a click on obsidian button.
 
 Nothing except your eyes could 
 
-![[./HTB/assets/demo3.mp4]]
+![[HTB/assets/demo3.mp4]]
 ## Setup
 
 ### Install obsidian
@@ -64,7 +64,7 @@ When the script creates a machine folder, it also creates a fileClass call "mach
 
 The profile of the machine is displayed like:
 
-![[./HTB/assets/machine_info_example.png]]
+![[HTB/assets/machine_info_example.png]]
 #### Index 
 
 There are three *dynamic tables* that will show you the diferent machines in the vault. Machines fileClass are defined by the tag "machine".
@@ -74,7 +74,7 @@ This tables :
 2. Show the machines in the vault that have user flag but not root flag
 3. Show the machines in the vault that have not started
 
-![[./HTB/assets/index_machine_info_example.png]]
+![[HTB/assets/index_machine_info_example.png]]
 
 
 
@@ -82,15 +82,17 @@ This tables :
 
 This is the main funtion of the integration. "Create Machine Note" button calls `htb_api.py` and makes all the implementation given below in the flowchart
 
-![[./HTB/assets/create_machine_example.png]]
+![[HTB/assets/create_machine_example.png]]
 
 
 #### Update Machine Info
 
 This button is usefull trigger it when you have completed a machine, or you didnt access to HTB in a while. This button will ONLY update the machine info of all the machines you have in the vault, updating the state of flags and graphs.
 
-![[./HTB/assets/update_machine_example.png]]
+![[HTB/assets/update_machine_example.png]]
 
+
+![](HTB/assets/update_machine_example.png)
 ## References
 
 https://github.com/clubby789/htb-api 
