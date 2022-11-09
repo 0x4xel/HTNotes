@@ -1,8 +1,7 @@
 
 ## Script Workflow  for  - Create Machine Note
 
-*This is simple button that will automate the creation of starting notes that will improve your quality of pwn. Just click on it and select the name of the machine you would like to compromise. 
-
+*This is simple button that will automate the creation of starting notes that will improve your quality of pwn. Just click on it and select the name of the machine you would like to compromise.*
 
 ```mermaid
 flowchart TB
