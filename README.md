@@ -15,8 +15,8 @@ This can be performed with just a click on obsidian button.
 
 Nothing except your eyes could 
 
+https://user-images.githubusercontent.com/48086822/200938482-8ad7a8b5-0f50-4c44-ae00-4e61ecfc99ca.mp4
 
-![](HTB/assets/demo3.mp4)
 ## Setup
 
 ### Install obsidian
