@@ -91,6 +91,9 @@ user_average = matrix["aggregate"]
 #Call templates
 machine_template = get_machine_template(VAULT_PATH,machine_data,active,user_owned,root_owned, time_today,user_average,author, user_rating, machine_tags)
 
+#In case of first execution
+if not os.path.exists(VAULT_PATH + "Machines/"):
+    os.makedirs(VAULT_PATH + "Machines/")
 
 
 # You can change me to define your folder structure
