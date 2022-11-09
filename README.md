@@ -20,7 +20,7 @@ This can be performed with just a click on obsidian button.
 You need Obsidian to integrate the tool.
 
 Open your browser and go to [Download Obsidian](https://obsidian.md/download).
-Install .deb and execute the folowing command under Dowloads
+Install .deb and execute the following command under Dowloads
 
 ```
 sudo dpkg -i <<Obsidian.deb>>
@@ -47,7 +47,7 @@ Put you API key in Constants.py file and save.
 
 ### Open you Vault folder
 
-1. Open obsidian and select  *open existing vault
+1. Open obsidian and select *open existing vault*
 2. Select the folder HTB under HTNotes
 
 
