@@ -35,7 +35,7 @@ cd HTNotes
 pip install -r requirements.txt
 ```
 
-### Get App token in Hackthebox
+### Get App token in HackTheBox
 
 1. You have to login in [HackTheBox](https://www.hackthebox.com/). 
 2.  Explore under View Profile -> Profile Settings -> App Tokens -> Generate App token
