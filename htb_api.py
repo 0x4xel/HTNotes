@@ -59,13 +59,15 @@ except:
 time_today = datetime.datetime.now()
 
 
-   
+
 # Convert
 if not machine_data.user_owned:
     user_owned = False
+    machine_data.user_owned = False
 
 if not machine_data.root_owned:
     root_owned = False
+    machine_data.root_owned = False
 
 if machine_data.user_owned:
     user_owned = "✅"
