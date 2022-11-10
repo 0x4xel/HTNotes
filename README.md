@@ -15,7 +15,7 @@ This can be performed with just a click on obsidian button.
 
 ## Content
 
-`Nothing except your eyes could verify if this tool will help you in the future`.
+`Nothing except your eyes could verify if this tool will help you in the future.`
 
 https://user-images.githubusercontent.com/48086822/200939575-04219c6f-0686-43a7-985f-18e30c4b2756.mp4
 
@@ -71,7 +71,29 @@ Now its yours. You can now change whatever you want. This is a preconfigured vau
 
 ## Usage
 
-#### Machine info
+The `vault structure` is represented like:
+
+├── Constants.py                              # API KEY GOES HERE
+├── hackthebox                                # HTB API Integration
+├── HTB
+│   ├── ⚡ Start Machine ⚡.md                  # Buttons for start machine note and update machine info
+│   ├── assets                                # You can remove this
+│   ├── fileClass                             # "Object" definitions on Obsidian
+│   ├── Index.md                              # Example of dynamic tables
+│   └── Machines                              # Main folder of machines stored
+│       └── {{Machine_name}}                  # Example of machine structure
+│           ├── 00-index.md
+│           ├── 01-recon.md
+│           ├── 02-exploitation.md
+│           ├── 03-post-exploitation.md
+│           ├── assets                        # Your machine screenshots goes here
+│           └── {{Machine_name}}.md           # Machine info with API response
+├── htb_api.py                                # Main function of button actions
+├── README.md
+├── requirements.txt                          # INSTALL THIS
+└── templates_md                              # Markdown templates
+
+
 
 When the script creates a machine folder, it also creates a fileClass call "machine" that receive the data from the API and print it into the {{machine_name}}.md.
 
