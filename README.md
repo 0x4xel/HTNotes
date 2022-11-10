@@ -8,12 +8,14 @@ This can be performed with just a click on obsidian button.
 
 - [Content](#Content)
 - [Setup](#Setup)
+- [Recommendations](#Recommendations)
 - [Usage](#Usage)
+- [Incoming](#Incoming)
 - [References](#References)
 
 ## Content
 
-Nothing except your eyes could verify if this tool will help you in the future.
+`Nothing except your eyes could verify if this tool will help you in the future`.
 
 https://user-images.githubusercontent.com/48086822/200939575-04219c6f-0686-43a7-985f-18e30c4b2756.mp4
 
@@ -46,12 +48,12 @@ pip install -r requirements.txt
 ### Get App token in HackTheBox
 
 1. You have to login in [HackTheBox](https://www.hackthebox.com/).
-2. Explore under View Profile -> Profile Settings -> App Tokens -> Generate App token
+2. Explore under ```View Profile -> Profile Settings -> App Tokens -> Generate App token```
 3. Create a token that will be needed to make requests on HTB API.
 
 ### Put token in Constants.py
 
-Put you API key in Constants.py file and save.
+Put you API key in `Constants.py` file and save.
 
 ### Open you Vault folder
 
@@ -60,6 +62,12 @@ Put you API key in Constants.py file and save.
 3. IMPORTANT: When prompt open asking for permisions, press `enable`. This vault has preconfigured plugins that are needed to work properly
 
 Note: Consider that HTB folder will be the main vault folder, so scripts must be under HTNotes and will need `execution privileges` with current user to keep working.
+
+## Recommendations
+
+When you have configure your environment, you can remove `assets` folder that is only for `README` asset purposes.
+
+Now its yours. You can now change whatever you want. This is a preconfigured vault so you can change it, add or remove content, feel `free`.
 
 ## Usage
 
@@ -94,6 +102,19 @@ This is the main funtion of the integration. "Create Machine Note" button calls 
 This button is usefull to trigger when you have completed a machine, or you didnt access to HTB in a while. This button will `ONLY` update the machine info of all the machines you have in the vault, updating the state of flags and graphs.
 
 ![](HTB/assets/update_machine_example.png)
+
+## Incoming
+
+As this is the first phase of the proyect, I would like to make some iterations over it and make this vault the main  `brain` for training notes.
+
+- New Tool "HTTool" that automate the first steps of recognition in machine
+- Button on the machine info that uploads a Writeup to Github / Gitlab pages
+- Improve the machine info view
+- A button to setup up the HTB machine from API
+- Make some automate mermaid flowcharts about the machine workflow
+- ...
+
+If you have any new idea, please get in contact with me by my social media published on my Github profile.
 
 ## References
 
