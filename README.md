@@ -71,26 +71,6 @@ Now its yours. You can now change whatever you want. This is a preconfigured vau
 
 ## Usage
 
-├── Constants.py&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# API KEY GOES HERE <br>
-├── hackthebox&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# HTB API Integration <br>
-├── HTB <br>
-│   ├── ⚡ Start Machine ⚡.md&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# Buttons for start machine note and update machine info <br>
-│   ├── assets&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# You can remove this <br>
-│   ├── fileClass&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# "Object" definitions on Obsidian <br>
-│   ├── Index.md&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# Example of dynamic tables <br>
-│   └── Machines&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# Main folder of machines stored <br>
-│       └── {{Machine_name}}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# Example of machine structure <br>
-│           ├── 00-index.md <br>
-│           ├── 01-recon.md <br>
-│           ├── 02-exploitation.md <br>
-│           ├── 03-post-exploitation.md <br>
-│           ├── assets&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# Your machine screenshots goes here <br>
-│           └── {{Machine_name}}.md&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# Machine info with API response <br>
-├── htb_api.py&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# Main function of button actions <br>
-├── README.md <br>
-├── requirements.txt&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# INSTALL THIS <br>
-└── templates_md&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# Markdown templates <br>
-
 When the script creates a machine folder, it also creates a fileClass call "machine" that receive the data from the API and print it into the {{machine_name}}.md.
 
 The profile of the machine is displayed like:
