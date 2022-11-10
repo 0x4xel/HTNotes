@@ -121,7 +121,7 @@
         {
           "label": "Select Machine",
           "description": "Select a machine name",
-          "default_value": "Lame",
+          "default_value": "",
           "target_variable_id": "qjtovztiv3",
           "required": true
         }
