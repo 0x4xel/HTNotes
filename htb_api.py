@@ -5,8 +5,7 @@ import datetime
 import Constants
 
 from hackthebox import HTBClient
-from templates_md import get_machine_template, get_machine_template, get_index_template
-
+from templates_md import get_machine_template, get_machine_template, get_index_template, get_recon_template, get_exploitation_template, get_post_exploitation_template
 
 # Params
 parser = argparse.ArgumentParser(description='A test program.')
@@ -36,7 +35,8 @@ try:
     else:
       machine_data = client.get_machine(machine_name)
 except:
-    print("Machine not found.")
+    if machine_name != "": #Checks only if machine_name does not exist 
+        print("Machine not found.")
     exit() 
 
 try:    
@@ -93,7 +93,7 @@ user_average = matrix["aggregate"]
 #Call templates
 machine_template = get_machine_template(VAULT_PATH,machine_data,active,user_owned,root_owned, time_today,user_average,author, user_rating, machine_tags)
 
-#In case of first execution
+#In case of first execution, create Machine Folder
 if not os.path.exists(VAULT_PATH + "Machines/"):
     os.makedirs(VAULT_PATH + "Machines/")
 
@@ -101,16 +101,22 @@ if not os.path.exists(VAULT_PATH + "Machines/"):
 # You can change me to define your folder structure
 if not os.path.exists(MACHINES_PATH):
     os.makedirs(MACHINES_PATH)
+    print("Created machine root folder")
+    if not os.path.exists(MACHINE_PATH + "assets"):
+        os.makedirs(MACHINE_PATH + "assets")
+        print(("Created assets folder"))
     with open(os.path.join(MACHINE_PATH, "00-index.md"), 'w') as temp_file:
       temp_file.writelines(get_index_template())
       print("Created 00-index.md")
     with open(os.path.join(MACHINE_PATH, "01-recon.md"), 'w') as temp_file:
-      print("Created 01-recon.md")
+        temp_file.writelines(get_recon_template())
+        print("Created 01-recon.md")
     with open(os.path.join(MACHINE_PATH, "02-exploitation.md"), 'w') as temp_file:
-      print("Created 02-exploitation.md")
+        temp_file.writelines(get_exploitation_template())
+        print("Created 02-exploitation.md")
     with open(os.path.join(MACHINE_PATH, "03-post-exploitation.md"), 'w') as temp_file:
-      print("Created 03-post-exploitation.md")
-
+        temp_file.writelines(get_post_exploitation_template())
+        print("Created 03-post-exploitation.md")
 
 
 # Create the file info machine
