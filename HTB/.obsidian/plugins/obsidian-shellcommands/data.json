@@ -18,7 +18,7 @@
     {
       "id": "m6e17y5rts",
       "platform_specific_commands": {
-        "default": "python3 {{folder_path:absolute}}/../htb_api.py -m {{_machine_name}} -v {{folder_path:absolute}}/"
+        "default": "/usr/bin/python3 {{folder_path:absolute}}/../htb_api.py -m {{_machine_name}} -v {{folder_path:absolute}}/"
       },
       "shells": {},
       "alias": "New Machine Note",
@@ -53,7 +53,7 @@
     {
       "id": "usnoddh2no",
       "platform_specific_commands": {
-        "default": "python3 {{folder_path:absolute}}/../htb_api.py  -m \"\" -v {{folder_path:absolute}}/"
+        "default": "/usr/bin/python3 {{folder_path:absolute}}/../htb_api.py  -m \"\" -v {{folder_path:absolute}}/"
       },
       "shells": {},
       "alias": "Update Machine",

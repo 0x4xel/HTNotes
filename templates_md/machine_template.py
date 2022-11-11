@@ -1,10 +1,33 @@
 from templates_md import get_template_char_user_rating, get_template_chart_radar
+import datetime
 
 
-def get_machine_template(VAULT_PATH,machine_data,active,user_owned,root_owned, time_today,user_average,author, user_rating,machine_tags):
+
+
+def get_machine_template(VAULT_PATH,machine_data,user_average,author,user_rating,machine_tags):
+
+    print(machine_data.active)
+    if machine_data.user_owned:
+        user_owned = "✅"
+    else:
+        user_owned = "❌"
+        machine_data.user_owned = False
+
+    if machine_data.root_owned:
+        root_owned = "✅"
+    else:
+        root_owned = "❌"
+        machine_data.root_owned = False
+
+    if machine_data.active:
+        active = "✅"
+    else:
+        active = "❌"
+    
+    
+    time_today = datetime.datetime.now()
     string_tags = ""
     for tag in machine_tags:
-        
         tag_with_no_spaces= machine_tags[tag]["name"].replace(" ", "_")
         string_tags = string_tags + "#" + tag_with_no_spaces + " "
     return f'''
@@ -34,7 +57,7 @@ fileClass: Machine
 | Published             |{machine_data.release_date.strftime("%Y/%m/%d")} |
 | tags                  |{string_tags} |
 
-<p style ="display:none">
+<p style = "display:none">
 id:: {machine_data.id}
 active:: {machine_data.active}
 name:: {machine_data.name}
