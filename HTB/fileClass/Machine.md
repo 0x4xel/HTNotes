@@ -3,7 +3,7 @@
 mapWithTag: true
 id:: {"type":"Input","options":{}}
 name:: {"type":"Input","options":{}}
-active:: "options":{}}, {"type":"Boolean"
+active:: {"type":"Boolean","options":{}}
 user_flag:: {"type":"Boolean","options":{}}
 root_flag:: {"type":"Boolean","options":{}}
 avatar:: {"type":"File","options":{}}
