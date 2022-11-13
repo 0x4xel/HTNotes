@@ -1,6 +1,6 @@
 # HTNotes
 
-HTNotes is a powerfull automatic tool for `Linux` that integrates a Vault Workspace in `Obsidian`. It automates the first steps of taking Notes in a HTB machine by generating a folder structure given a machine name. I also provides integration with the HTB API that allows to perform requests and prints the info into markwdown files.
+HTNotes is a powerfull automatic tool for `Linux` that integrates a Vault Workspace in `Obsidian`. It automates the first steps of taking Notes in a HTB machine by generating a folder structure given a machine name. It also provides integration with the HTB API that allows to perform requests and prints the info into markwdown files.
 
 As mention before, these actions can be performed with just a click of a button in Obsidian
 
