@@ -114,6 +114,16 @@ As this is the first phase of the proyect, I would like to make some iterations 
 
 If you have any new idea, please get in contact with me by my social media published on my Github profile.
 
+
+## Changelog
+
+##### 11/12/2022
+
+- New templates examples on folder machine
+- Fix broken attributes
+- Fix date format to mm/dd/yyyy
+- Script interal fixs
+
 ## References
 
 https://github.com/clubby789/htb-api
