@@ -1,8 +1,9 @@
 # HTNotes
 
-HTNotes is a powerfull automatic tool for `Linux` that integrates a Vault Workspace in `Obsidian`. It can automates the first steps of taking Notes in a HTB machine by generating a folder structure given a machine name. It has also an integration with the HTB API that makes requests and print the info into markdown files.
+HTNotes is a powerfull automatic tool for `Linux` that integrates a Vault Workspace in `Obsidian`. It automates the first steps of taking Notes in a HTB machine by generating a folder structure given a machine name. I also provides integration with the HTB API that allows to perform requests and prints the info into markwdown files.
 
-This can be performed with just a click on obsidian button.
+As mention before, these actions can be performed with just a click of a button in Obsidian
+
 
 ## Table of Contents
 
@@ -65,15 +66,15 @@ Note: Consider that HTB folder will be the main vault folder, so scripts must be
 
 ## Recommendations
 
-When you have configure your environment, you can remove `assets` folder that is only for `README` asset purposes.
+Once you have configured your environment, you can remove `assets` folder that is only for `README` asset purposes.
 
-Now its yours. You can now change whatever you want. This is a preconfigured vault so you can change it, add or remove content, feel `free`.
+Now its yours. You can now change whatever you want. This is a pre-configured vault so you can change it, add or remove content, feel `free`.
 
 ## Usage
 
 When the script creates a machine folder, it also creates a fileClass call "machine" that receive the data from the API and print it into the {{machine_name}}.md.
 
-The profile of the machine is displayed like:
+The profile of the machine will be displayed like:
 
 ![](HTB/assets/machine_info_example.png)
 
@@ -97,7 +98,7 @@ This is the main funtion of the integration. "Create Machine Note" button calls 
 
 #### Update Machine Info
 
-This button is usefull to trigger when you have completed a machine, or you didnt access to HTB in a while. This button will `ONLY` update the machine info of all the machines you have in the vault, updating the state of flags and graphs.
+This button is usefull to trigger when you have completed a machine, or you didnt access to HTB in a while. It will `ONLY` update the machine info of all the machines you have in the vault, updating the state of flags and graphs.
 
 ![](HTB/assets/update_machine_example.png)
 
