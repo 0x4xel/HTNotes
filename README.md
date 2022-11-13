@@ -18,10 +18,10 @@ As mention before, these actions can be performed with just a click of a button 
 
 `Nothing except your eyes could verify if this tool will help you in the future.`
 
-https://user-images.githubusercontent.com/48086822/200939575-04219c6f-0686-43a7-985f-18e30c4b2756.mp4
+https://user-images.githubusercontent.com/48086822/201535103-70a82df6-6866-4750-b170-8cc72252d000.mp4
 
 If video is not displayed, you can also click on this link:
-https://youtu.be/loKeAcpBSR8
+https://youtu.be/I7AuBw0fXkE
 
 ## Setup
 
