@@ -10,6 +10,7 @@ flowchart TB
 	    J -- Found Machine --> B["Search folder name"]
         B -- Found --> E["Just update the machine info"]
         B -- Not Found --> C["Create folder structure"]
+         C --> L["assets"]
         C --> F["00-index"]
         C --> G["01-recon"]
         C --> H["02-exploitation"]
@@ -37,7 +38,7 @@ color blue
 flowchart TB
         A["Button Action"] --> B["Search Markdown fileClass Machine"]
         B --> C["HTB API conn with file name as param"]
-        C --> D["Create new file with updated params"]
+        C --> D["Create new file with updated attributes"]
 		D --> C
         
 	
