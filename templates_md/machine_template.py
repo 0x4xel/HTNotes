@@ -6,7 +6,6 @@ import datetime
 
 def get_machine_template(VAULT_PATH,machine_data,user_average,author,user_rating,machine_tags):
 
-    print(machine_data.active)
     if machine_data.user_owned:
         user_owned = "✅"
     else:
@@ -53,8 +52,8 @@ fileClass: Machine
 | Root Flag             |{root_owned}|
 | Difficulty Text       |{machine_data.difficulty}  |
 | Stars                 |⭐️ {machine_data.stars} |
-| Created Note          |{time_today.strftime("%Y/%m/%d")} |
-| Published             |{machine_data.release_date.strftime("%Y/%m/%d")} |
+| Created Note          |{time_today.strftime("%m/%d/%y")} |
+| Published             |{machine_data.release_date.strftime("%m/%d/%y")} |
 | tags                  |{string_tags} |
 
 <p style = "display:none">
@@ -66,8 +65,8 @@ user_flag:: {machine_data.user_owned}
 root_flag:: {machine_data.root_owned}
 difficulty_text:: {machine_data.difficulty}
 stars:: {machine_data.stars}
-created:: {time_today.strftime("%Y/%m/%d")}
-published:: {machine_data.release_date.strftime("%Y/%m/%d")}
+created:: {time_today.strftime("%m/%d/%Y")}
+published:: {machine_data.release_date.strftime("%m/%d/%y")}
 avatar:: {machine_data.avatar}
 tags:: {string_tags}
 </p>
