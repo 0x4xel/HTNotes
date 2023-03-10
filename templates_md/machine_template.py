@@ -27,7 +27,7 @@ def get_machine_template(VAULT_PATH,machine_data,user_average,author,user_rating
     time_today = datetime.datetime.now()
     string_tags = ""
     for tag in machine_tags:
-        tag_with_no_spaces= machine_tags[tag]["name"].replace(" ", "_")
+        tag_with_no_spaces = tag["name"].replace(" ", "_")
         string_tags = string_tags + "#" + tag_with_no_spaces + " "
     return f'''
 ---
